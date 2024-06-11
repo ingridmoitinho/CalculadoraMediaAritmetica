@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(119, 140, 209);
+  font-family: "Architects Daughter", cursive;
+}
+
+.container {
+  text-align: center;
+  border: 1px solid #cccccc;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  width: 80px;
+  text-align: center;
+}
+
+button {
+  padding: 8px 15px;
+  background: aqua;
+  color: rgb(102, 127, 211);
+  font-family: "Freeman", sans-serif;
+  box-shadow: 4px 5px 4px rgba(133, 114, 219, 0.349);
+  border-radius: 15px;
+  font-size: 15px;
+  user-select: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #b31ba6;
+  color: #f9f9f9;
+  transition: 1s;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span {
+    color: rgb(209, 107, 204);
+    font-family: "Freeman", sans-serif;
+    font-size: 10px;
+}
+
+p {
+    color: rgb(119, 140, 209);
+    font-family: "Freeman", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+}
+
